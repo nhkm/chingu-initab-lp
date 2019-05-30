@@ -1,0 +1,114 @@
+body {
+	background-color: rgb(40,42,54);
+	color: #fff;
+	font-size: 12px;
+}
+
+.mainContainer {
+	width: 100%;
+	height: 100%;
+}
+
+.navbarSection {
+	background-color: #44475a;
+	width: 160px !important;
+}
+
+.navBar {
+	height: 85vh;
+}
+
+.logo, .icons {
+	height: 7vh;
+	padding-left: 42px;
+}
+
+.logo img {
+	height: 28px;
+}
+
+.icons img {
+	height: 28px;
+	padding: 0 1px;
+}
+
+.navList li {
+	list-style-type: none;
+	padding: 12px 0;
+}
+
+.blue, .blue:hover {
+	color: rgb(111, 237, 255);
+}
+
+.green, .green:hover {
+	color: rgb(0, 255, 124);
+}
+
+.orange, .orange:hover {
+	color: rgb(255, 181, 97);
+}
+
+.pink, .pink:hover {
+	color: rgb(255, 87, 195);
+}
+
+.purple, .purple:hover {
+	color: rgb(201, 129, 251);
+}
+
+.white, .white:hover {
+	color: rgb(255, 255, 255);
+}
+
+.yellow, .yellow:hover {
+	color: rgb(228, 224, 109);
+}
+
+.darkBlue {
+	color: rgb(99, 110, 166);
+}
+
+.mainP {
+	margin: 30px auto;
+	font-size: 14px;
+}
+
+.mainP img {
+	height: 22px;
+	padding: 0 5px 5px 0;
+}
+
+.contentLeftContent p, .contentRight p {
+	margin: 0 !important;
+	padding: 2px 0 !important;
+}
+
+.contentCenterContent {
+	height: 50%;
+	border-bottom: solid 1px #44475a;
+}
+
+.contentCenter img {
+	height: 16px;
+	padding-right: 5px;
+}
+
+.currentTimeStamp {
+}
+
+#currentTime {
+	font-size: 120px;
+	color: rgb(99, 110, 166);
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#currentDate {
+	font-size: 20px;
+	color: rgb(99, 110, 166);
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
